@@ -88,6 +88,14 @@ if (question11 === "J. R. R. Tolkien"){
 else if (!question11){
     result = 0;
 }
+//Question 12
+let question12 = prompt ("Largest island is?");
+if (question12 === "Greenland"){
+    result += 5;
+}
+else if (!question12){
+    result = 0;
+}
 
 
 
