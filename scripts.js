@@ -112,6 +112,14 @@ if (question14 === "8"){
 else if (!question14){
     result = 0;
 }
+//Question 15
+let question15 = prompt ("Which is equal to P?");
+if (question15 === "3.14"){
+    result += 5;
+}
+else if (!question15){
+    result = 0;
+}
 
 
 
