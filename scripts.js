@@ -32,7 +32,14 @@ if (question4 === "Nile"){
 else if (!question4){
     result = 0;
 }
-
+//Question 5
+let question5 = prompt ("What is the capital of Jamaica?");
+if (question5 === "Kingston"){
+    result += 5;
+}
+else if (!question5){
+    result = 0;
+}
 
 
 
