@@ -120,6 +120,14 @@ if (question15 === "3.14"){
 else if (!question15){
     result = 0;
 }
+//Question 16
+let question16 = prompt ("The capital of Sweden is ?");
+if (question16 === "Stockholm"){
+    result += 5;
+}
+else if (!question16){
+    result = 0;
+}
 
 
 
