@@ -80,6 +80,14 @@ if (question10 === "Leonardo DiCaprio"){
 else if (!question10){
     result = 0;
 }
+//Question 11
+let question11 = prompt ("Author of the lord of the rings?");
+if (question11 === "J. R. R. Tolkien"){
+    result += 5;
+}
+else if (!question11){
+    result = 0;
+}
 
 
 
