@@ -56,7 +56,14 @@ if (question7 === "Mark Zuckerberg"){
 else if (!question7){
     result = 0;
 }
-
+//Question 8 
+let question8 = prompt ("How many states in USA?");
+if (question8 === 50){
+    result += 5;
+}
+else if (!question8){
+    result = 0 ;
+}
 
 
 
