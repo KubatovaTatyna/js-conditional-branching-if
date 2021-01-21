@@ -40,6 +40,14 @@ if (question5 === "Kingston"){
 else if (!question5){
     result = 0;
 }
+//Question 6
+let question6 = prompt ("J.K.Rowling's popular work is?");
+if (question6 === "Harry Potter"){
+    result += 5;
+}
+else if (!question6){
+    result = 0;
+}
 
 
 
