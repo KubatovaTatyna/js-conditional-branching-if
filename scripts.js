@@ -104,6 +104,14 @@ if (question13 === "6"){
 else if (!question13){
     result = 0;
 }
+//Question 14
+let question14 = prompt ("How many planets are in the solar system?");
+if (question14 === "8"){
+    result += 5;
+}
+else if (!question14){
+    result = 0;
+}
 
 
 
