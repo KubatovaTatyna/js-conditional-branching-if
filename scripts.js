@@ -24,6 +24,14 @@ else if (!question3){
     result = 0;
 }
 
+//Question 4
+let question4 = prompt ("What is the longest river?");
+if (question4 === "Nile"){
+    result += 5;
+}
+else if (!question4){
+    result = 0;
+}
 
 
 
