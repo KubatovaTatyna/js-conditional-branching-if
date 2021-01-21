@@ -64,6 +64,14 @@ if (question8 === 50){
 else if (!question8){
     result = 0 ;
 }
+//Question 9 
+let question9 = prompt ("How many oceans on earth?");
+if (question9 === 5){
+    result += 5;
+}
+else if(!question9){
+    result = 0;
+}
 
 
 
