@@ -72,6 +72,14 @@ if (question9 === 5){
 else if(!question9){
     result = 0;
 }
+//Question 10
+let question10 = prompt ("Titanic protagonist?");
+if (question10 === "Leonardo DiCaprio"){
+    result += 5;
+}
+else if (!question10){
+    result = 0;
+}
 
 
 
