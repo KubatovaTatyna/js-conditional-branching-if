@@ -96,6 +96,14 @@ if (question12 === "Greenland"){
 else if (!question12){
     result = 0;
 }
+//Question 13
+let question13 = prompt ("How many strings does the guitar have?");
+if (question13 === "6"){
+    result += 5;
+}
+else if (!question13){
+    result = 0;
+}
 
 
 
