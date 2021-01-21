@@ -48,6 +48,14 @@ if (question6 === "Harry Potter"){
 else if (!question6){
     result = 0;
 }
+//Question 7
+let question7 = prompt ("Facebook was founded by?");
+if (question7 === "Mark Zuckerberg"){
+    result += 5;
+}
+else if (!question7){
+    result = 0;
+}
 
 
 
